@@ -23,9 +23,3 @@ class CartPage {
 export default new CartPage();
 
 
-
-// const cart = require('../elements/CartElements').ELEMENTS;
-
-// import CartElements from '../elements/CartElements';
-// const cart = new CartElements;
-// const url = Cypress.config("baseUrl");

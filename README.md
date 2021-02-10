@@ -5,12 +5,14 @@
 - Utilizando o [E-Commerce](http://automationpractice.com/), O desafio propõe automatizar a funcionalidade de
 adição do produto ao carrinho através da busca.
 
-- Para automação dos testes foi utilizado o [Cypress](https://www.cypress.io/), utilizando a estrutura de Page Objects, para a elaboração dos cenarios de testes com BDD o [Cucumber](https://cucumber.io/).
+- Para automação dos testes foi utilizado o [Cypress](https://www.cypress.io/), utilizando a estrutura de Page Objects, para a elaboração dos cenarios de testes com BDD o [Cucumber](https://www.npmjs.com/package/cypress-cucumber-preprocessor).
+
+- Utilizado o [cucumber-html-reporter](https://www.npmjs.com/package/cucumber-html-reporter), como gerenciador de relatórios.
 
 # 🚀Instalação
 ## Pré-requisitos
-- Fazer a instalação do [Node.Js](https://nodejs.org/en/)
-é recomendado seguir o guia no site oficial.
+- Fazer a instalação do [Node.Js](https://nodejs.org/en/).
+- É recomendado seguir o guia no site oficial.
 
 ## Clonando o Repositório
 - Clone este repositorio para sua máquina local usando:
@@ -21,17 +23,16 @@ git clone https://github.com/
 ## Instalando Depedências
 - Com o Node.Js devidamente instalado em sua máquina, acesse o diretório do projeto pelo **cmd** ou **powershell** e digite os comandos abaixo:
 ```
-npm install
-npm install --save-dev cypress cypress-cucumber-preprocessor
+1º npm install
+2º npm install --save-dev cypress cypress-cucumber-preprocessor
+3º npm install cucumber-html-reporter --save-dev
 
 ```
-- Após esse comando ser digitado será instalado todas as dependências necessárias para a execução do projeto.
+- Após esses comandos serem digitados será instalado todas as dependências necessárias para a execução do projeto.
 
 ## Executando os testes
-- Para a execução do testes utilize o comando abaixo:
+- Para a execução do teste utilize o comando abaixo:
 ```
-npm run test:chrome
-**ou**
 npx cypress run --browser chrome
 
 ```

@@ -1,0 +1,53 @@
+[
+  {
+    "description": "    Sendo um visitante do site \n    Quero fazer a pesquisa do produto\n    Para que eu possa adicionar ao meu carrinho",
+    "keyword": "Feature",
+    "name": "Carrinho de Compras",
+    "line": 1,
+    "id": "carrinho-de-compras",
+    "tags": [],
+    "uri": "Cart.feature",
+    "elements": [
+      {
+        "id": "carrinho-de-compras;adicionar-produto-ao-carrinho",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Adicionar produto ao carrinho",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "acesso o site",
+            "result": {
+              "status": "passed",
+              "duration": 21739000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "pesquiso produto",
+            "result": {
+              "status": "passed",
+              "duration": 4747000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "devo visualizar produto adicionado ao carrinho",
+            "result": {
+              "status": "passed",
+              "duration": 2914000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
