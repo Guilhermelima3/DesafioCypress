@@ -17,7 +17,7 @@ adição do produto ao carrinho através da busca.
 ## Clonando o Repositório
 - Clone este repositorio para sua máquina local usando:
 ```
-git clone https://github.com/
+git clone https://github.com/Guilhermelima3/DesafioCypress.git
 
 ```
 ## Instalando Depedências
@@ -34,6 +34,8 @@ git clone https://github.com/
 - Para a execução do teste utilize o comando abaixo:
 ```
 npx cypress run --browser chrome
+ou
+npx cypress run
 
 ```
 # 📌 Autor/Contato
